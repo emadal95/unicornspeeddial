@@ -43,7 +43,7 @@ class UnicornButton extends FloatingActionButton {
             color: this.labelBackgroundColor == null
                 ? Colors.white
                 : this.labelBackgroundColor,
-            borderRadius: BorderRadius.circular(3.0)), //color: Colors.white,
+            borderRadius: BorderRadius.circular(40.0)), //color: Colors.white,
         padding: EdgeInsets.all(9.0),
         child: Text(this.labelText,
             style: TextStyle(
